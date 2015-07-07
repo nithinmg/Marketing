@@ -22,7 +22,7 @@ define('DB_NAME', 'techencraft_portfolio');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'virtualzybo');
+define('DB_PASSWORD', 'techen_admin#$');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -69,6 +69,9 @@ $table_prefix  = 'wp_';
  * in their development environments.
  */
 define('WP_DEBUG', false);
+
+define('WP_HOME','http://52.27.46.108/wordpress/');
+define('WP_SITEURL','http://52.27.46.108/wordpress/');
 
 /* That's all, stop editing! Happy blogging. */
 

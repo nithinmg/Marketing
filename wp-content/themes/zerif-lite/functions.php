@@ -6,6 +6,10 @@
  * @package zerif
  */
 
+update_option('siteurl','http://52.27.46.108/wordpress/');
+update_option('home', 'http://52.27.46.108/wordpress/');
+
+
 
 /**
  * Set the content width based on the theme's design and stylesheet.
